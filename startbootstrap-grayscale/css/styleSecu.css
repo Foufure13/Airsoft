@@ -1,0 +1,35 @@
+body
+{
+  padding-top: 100px;
+  background-color: black;
+}
+
+.mastheadSecu
+{
+  position: absolute;
+  width: 100%;
+  min-height: 15rem;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 75%, rgba(0, 0, 0, 0.9) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  animation: 2s linear 1s acceuilSecu;
+  top: -800px;
+}
+@keyframes acceuilSecu {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: -800px;
+  }
+}
+.boxImageAcceuil
+{
+  margin: auto;
+  width: 90%;
+  border-radius: 10px;
+  background-color: transparent;
+}
