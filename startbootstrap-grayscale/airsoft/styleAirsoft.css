@@ -1,0 +1,48 @@
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 25rem;
+  padding: 5rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.9) 100%), url("assets/image-une-airsoft.jpg");
+  background-position: 20% 20%;
+  background-attachment: fixed;
+}
+.masthead h1, .masthead .h1 {
+  font-size: 1.5rem;
+}
+.boxImageAcceuil
+{
+  margin: 1rem auto 0px auto;
+  width: 90%;
+  background-color: transparent;
+}
+@media (max-width: 950px) {
+  .masthead {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.contenue
+{
+  padding: 5rem 0 5rem;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.contenue p
+{
+  text-align: left;
+}
+.separator
+{
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+@media (max-width: 750px) {
+  .contenue {
+    width: 90%;
+  }
+}
