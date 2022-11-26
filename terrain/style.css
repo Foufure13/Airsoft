@@ -1,0 +1,38 @@
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 1rem;
+  max-height: 350px;
+  padding: 5rem 0 0 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.9) 100%), url("../assets/photo/plan.png");
+  background-position: 5% 450px;
+  background-attachment: fixed;
+  background-size: 80%;
+  transform: rotate(0deg);
+}
+.masthead h1, .masthead .h1 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+.boxImageAcceuil
+{
+  margin: 1rem auto 0px auto;
+  width: auto;
+  height: 30%;
+  background-color: transparent;
+ }
+@media (min-width:1200px) {
+  .masthead
+  {
+    background-size: 100%;
+  }
+}
+@media (max-width: 950px) {
+  .masthead {
+    background-size: cover;
+    background-position: 30% 50%;
+  }
+} 
+
