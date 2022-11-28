@@ -5,8 +5,8 @@
   min-height: 1rem;
   max-height: 350px;
   padding: 5rem 0 0 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.9) 100%), url("../assets/photo/plan.png");
-  background-position: 5% 450px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.9) 100%), url("../assets/photo/foret.jpg");
+  background-position: 5% 700px;
   background-attachment: fixed;
   background-size: 80%;
   transform: rotate(0deg);
