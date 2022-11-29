@@ -35,3 +35,15 @@
   }
 } 
 
+.imagePresentation
+{
+  width: auto;
+}
+
+@media (max-width:991px) {
+  .paddingTop
+  {
+    padding-top: 3rem
+  } 
+}
+
