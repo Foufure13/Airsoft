@@ -1,15 +1,14 @@
-.masthead {
+  .masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 1rem;
   max-height: 350px;
   padding: 5rem 0 0 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.9) 100%), url("../assets/photo/foret.jpg");
-  background-position: 5% 700px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.9) 100%), url("assets/foret.jpg");
+  background-position: center;
   background-attachment: fixed;
-  background-size: 80%;
-  transform: rotate(0deg);
+  background-size: cover;
 }
 .masthead h1, .masthead .h1 {
   font-size: 1.5rem;
@@ -23,16 +22,22 @@
   height: 30%;
   background-color: transparent;
  }
-@media (min-width:1200px) {
-  .masthead
-  {
-    background-size: 100%;
-  }
-}
-@media (max-width: 950px) {
-  .masthead {
-    background-size: cover;
-    background-position: 30% 50%;
-  }
-} 
 
+ @media (max-width: 1500px) {
+  .masthead {
+    background-position: 30% -100px;
+  }
+}  
+.banniereFlex
+{
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+}
+.banniereFlex img
+{
+  margin-top: -40px;
+  margin-bottom: -20px;
+  height: 170px;
+  width: auto;
+}

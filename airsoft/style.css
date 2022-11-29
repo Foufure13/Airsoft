@@ -5,10 +5,10 @@
   min-height: 1rem;
   max-height: 350px;
   padding: 5rem 0 0 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.9) 100%), url("assets/image-une-airsoft.jpg");
-  background-position: 20% 20%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.9) 100%), url("assets/s4ttf13bx6q11.png");
+  background-position: 0px -300px;
   background-attachment: fixed;
-  background-size: 150%;
+  background-size: cover;
 }
 .masthead h1, .masthead .h1 {
   font-size: 1.5rem;
@@ -22,20 +22,25 @@
   height: 30%;
   background-color: transparent;
  }
-@media (min-width:1200px) {
+@media (max-width:1500px) {
   .masthead
   {
-    background-size: 100%;
+    background-position: 0px -200px;
   }
 }
-@media (max-width: 950px) {
-  .masthead {
-    background-size: cover;
-    background-position: 30% 50%;
-  }
-} 
-
-
+.banniereFlex
+{
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+}
+.banniereFlex img
+{
+  margin-top: -40px;
+  margin-bottom: -20px;
+  height: 170px;
+  width: auto;
+}
 
 
 

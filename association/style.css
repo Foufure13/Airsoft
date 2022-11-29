@@ -4,11 +4,11 @@
   height: auto;
   min-height: 1rem;
   max-height: 350px;
-  padding: 5rem 0 0 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.9) 100%), url("../assets/photo/acceuil.jpg");
-  background-position: 20% 110%;
+  padding: 5rem 0 0 0;  
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.9) 100%), url("assets/association.png");
+  background-position: 0px -320px;
   background-attachment: fixed;
-  background-size: 150%;
+  background-size: cover;
 }
 .masthead h1, .masthead .h1 {
   font-size: 1.5rem;
@@ -22,18 +22,26 @@
   height: 30%;
   background-color: transparent;
  }
-@media (min-width:1200px) {
-  .masthead
-  {
-    background-size: 100%;
-  }
-}
-@media (max-width: 950px) {
+ .banniereFlex
+ {
+   display: flex;
+   flex-direction: column;
+   height: 20rem;
+ }
+ .banniereFlex img
+ {
+   margin-top: -40px;
+   margin-bottom: -20px;
+   height: 170px;
+   width: auto;
+ }
+ 
+
+ @media (max-width: 1500px) {
   .masthead {
-    background-size: cover;
-    background-position: 30% 50%;
+    background-position: 30% -220px;
   }
-} 
+}  
 
 .imagePresentation
 {
@@ -46,4 +54,5 @@
     padding-top: 3rem
   } 
 }
+
 

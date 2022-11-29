@@ -1,39 +1,52 @@
-body
-{
-  padding-top: 100px;
-  background-color: black;
-}
 
-.mastheadSecu
-{
-  position: absolute;
+.masthead {
+  position: relative;
   width: 100%;
-  min-height: 15rem;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 75%, rgba(0, 0, 0, 0.9) 100%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: 100% 60%;
-  animation: 2s linear 1s acceuilSecu;
-  top: -800px;
-  z-index: 1;
+  height: auto;
+  min-height: 1rem;
+  max-height: 350px;
+  padding: 5rem 0 0 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("assets/regmentv332.png");
+  background-position: 395px -100px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: repeat;
 }
-@keyframes acceuilSecu {
-  from {
-    top: 0px;
-  }
-
-  to {
-    top: -800px;
-  }
+.masthead h1, .masthead .h1 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
 }
 .boxImageAcceuil
 {
-  margin: auto;
-  width: 90%;
-  border-radius: 10px;
+  margin: 1rem auto 0px auto;
+  width: auto;
+  height: 30%;
   background-color: transparent;
+ }
+ @media (max-width: 1400px) {
+  .masthead {
+    background-size: cover;
+    background-position: 95px -100px;
+  }
+}  
+
+
+
+.banniereFlex
+{
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
 }
+.banniereFlex img
+{
+  margin-top: -40px;
+  margin-bottom: -20px;
+  height: 170px;
+  width: auto;
+}
+
 .marginwWhite
 {
   background-color: white;
@@ -44,4 +57,22 @@ body
 .accordeonHover:hover
 {
   background-color: rgb(214, 202, 202);
+}
+.petitMargin
+{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.accordion-body
+{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.separator
+{
+  margin: auto;
+  width: 80%;
+  border: 1px solid black;
+  margin-bottom: 30px;
 }
