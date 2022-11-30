@@ -24,10 +24,27 @@
   height: 30%;
   background-color: transparent;
  }
+ @media (min-width:1400px) {
+  .masthead
+  {
+    transform: scale(1.2);
+  }  
+ }
  @media (max-width: 1400px) {
   .masthead {
     background-size: cover;
     background-position: 95px -100px;
+  }
+}
+@media (max-width: 991px) {
+  .masthead {
+    background-size: cover;
+    background-position: 1600px -100px;
+  }
+}
+   @media (max-width: 600px) {
+  .masthead {
+    background-position: 1300px -100px;
   }
 }  
 
@@ -52,21 +69,17 @@
   background-color: white;
   width: 100%;
   padding-top: 50px;
-  padding-top: 50px;
 }
 .accordeonHover:hover
 {
-  background-color: rgb(214, 202, 202);
+  background-color: rgb(220, 241, 239);
 }
-.petitMargin
-{
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
+
 .accordion-body
 {
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin: 0rem 0rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  text-align: left;
 }
 
 .separator
@@ -75,4 +88,17 @@
   width: 80%;
   border: 1px solid black;
   margin-bottom: 30px;
+}
+@media (min-width:1500px) {
+    .accordion-body
+  {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .accordion-button
+  {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  
 }
